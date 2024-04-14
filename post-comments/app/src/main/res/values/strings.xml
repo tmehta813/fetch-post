@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android Test Assessment</string>
+    <string name="comments_count">Comments: %d</string>
+    <string name="post_id">Post Id: %d</string>
+</resources>
