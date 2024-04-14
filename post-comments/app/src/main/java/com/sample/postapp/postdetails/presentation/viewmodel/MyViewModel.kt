@@ -19,9 +19,6 @@ class MyViewModel @Inject constructor(
     private val repository: PostCommentRepository
 ) : ViewModel() {
 
-    init {
-        fetchPostsAndComments()
-    }
     private val pageSize = 10
 
     private val _postWithComments = MutableLiveData<Result<List<PostWithComments>>>()

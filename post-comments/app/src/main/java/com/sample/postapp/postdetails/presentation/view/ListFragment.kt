@@ -36,6 +36,7 @@ class ListFragment : Fragment(), OnClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        viewModel.fetchPostsAndComments()
         setupRecyclerView()
         observeViewModel()
     }
